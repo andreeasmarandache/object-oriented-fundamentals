@@ -1,3 +1,5 @@
+package package2;
+
 public class Student {
 
     private String nume;
@@ -10,7 +12,7 @@ public class Student {
     }
 
     public void afiseazaDetalii() {
-        System.out.println("Student: " + this.nume + ", Nota: " + this.nota);
+        System.out.println("package2.Student: " + this.nume + ", Nota: " + this.nota);
     }
 
     public void setNota(int nouaNota) {
