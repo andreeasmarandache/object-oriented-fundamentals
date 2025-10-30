@@ -1,3 +1,5 @@
+package package3;
+
 public class ContBancar {
 
     private double sold; // Câmpul este privat, protejat!
