@@ -15,4 +15,8 @@ public class User {
         return userCount;
     }
 
+    public String getUsername() {
+        return username;
+    }
+
 }

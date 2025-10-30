@@ -11,5 +11,9 @@ public class Platforma {
         User user3 = new User("cristi");
         System.out.println("Utilizatori în total: " + User.getUserCount()); // 3
 
+        System.out.println("Primul utilizator: " + user1.getUsername());
+        System.out.println("Al doilea utilizator: " + user2.getUsername());
+        System.out.println("Al treilea utilizator: " + user3.getUsername());
+
     }
 }
